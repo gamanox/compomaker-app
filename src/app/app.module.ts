@@ -12,7 +12,7 @@ import { SplashScreen } from "@ionic-native/splash-screen";
 
 @NgModule({
   declarations: [MyApp, HomePage, ListPage, Slim],
-  imports: [BrowserModule, IonicModule.forRoot(MyApp), CroppieModule],
+  imports: [BrowserModule, IonicModule.forRoot(MyApp)],
   bootstrap: [IonicApp],
   entryComponents: [MyApp, HomePage, ListPage],
   providers: [
